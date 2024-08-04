@@ -92,6 +92,7 @@
     "play:webpack": "npm -C playground/webpack run dev",
     "play:rollup": "npm -C playground/rollup run dev",
     "play:esbuild": "npm -C playground/esbuild run dev",
+    "play:rspack": "npm -C playground/rspack run dev",
     "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",

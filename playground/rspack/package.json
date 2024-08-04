@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -w '../../dist/**/*.js' -e .js -x rspack serve"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.7.5",
+    "@rspack/core": "^0.7.5",
+    "swc-loader": "^0.2.6"
+  }
+}
