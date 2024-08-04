@@ -89,6 +89,7 @@
     "lint": "eslint .",
     "play": "npm run play:vite",
     "play:vite": "npm -C playground/vite run dev",
+    "play:webpack": "npm -C playground/webpack run dev",
     "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",

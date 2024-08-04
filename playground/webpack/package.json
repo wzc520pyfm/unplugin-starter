@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -w '../../src/**/*.ts' -e .ts -x webpack serve"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.7.6",
+    "@types/webpack": "^5.28.5",
+    "html-webpack-plugin": "^5.6.0",
+    "sucrase": "^3.35.0",
+    "swc-loader": "^0.2.6",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
