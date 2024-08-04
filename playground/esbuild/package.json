@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -w '../../src/**/*.ts' -e .ts -x npx tsx ./build.ts & npm run preview",
+    "preview": "serve"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "serve": "^14.2.3"
+  }
+}
